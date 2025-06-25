@@ -1,0 +1,465 @@
+{
+  "categories": {
+    "cat1": {
+      "description": "Các món cơm ngon",
+      "image": "https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-asm/blog/com-trang-bao-nhieu-calo.webp",
+      "name": "Cơm"
+    },
+    "cat2": {
+      "description": "Các loại phở truyền thống",
+      "image": "https://vespaadventures.com/wp-content/uploads/2024/09/traditional-pho-hanoi-1.png",
+      "name": "Phở"
+    },
+    "cat3": {
+      "description": "Nước giải khát, trà sữa",
+      "image": "https://viettradetoday.com/wp-content/uploads/2021/07/tra_chanh_leo_oi.jpg",
+      "name": "Đồ uống"
+    },
+    "cat4": {
+      "description": "Các món ăn vặt đường phố",
+      "image": "https://www.elib.vn/images/topic/2020/20200723//266_1609296232.jpg",
+      "name": "Đồ ăn vặt"
+    },
+    "cat5": {
+      "description": "Các loại chè và dessert",
+      "image": "https://i.pinimg.com/236x/37/13/87/371387cd4dc78745187c97847cb453fd.jpg",
+      "name": "Chè & Dessert"
+    }
+  },
+  "products": {
+    "prod1": {
+      "categoryId": "cat1",
+      "description": "Cơm tấm với sườn nướng, bì heo và chả trứng",
+      "image": "https://mamnamngu.com/wp-content/uploads/2023/12/tong-hop-3-cach-lam-com-tam-thom-ngon-nhu-ngoai-tiem-202112231559101350.jpg",
+      "name": "Cơm tấm sườn bì chả",
+      "price": 45000,
+      "rating": 5,
+      "status": "available",
+      "storeId": "store1"
+    },
+    "prod10": {
+      "categoryId": "cat1",
+      "description": "Mì Quảng đặc sản",
+      "image": "https://i.pinimg.com/236x/c7/da/20/c7da20d988572e87dadd7453a63520a9.jpg",
+      "name": "Mì Quảng",
+      "price": 35000,
+      "rating": 4.6,
+      "status": "available",
+      "storeId": "store5"
+    },
+    "prod11": {
+      "categoryId": "cat2",
+      "description": "Bún chả Hà Nội",
+      "image": "https://i.pinimg.com/474x/89/ba/2e/89ba2e01695f8626f9d4fd51f12ef25b.jpg",
+      "name": "Bún Chả",
+      "price": 45000,
+      "rating": 4.5,
+      "status": "available",
+      "storeId": "store5"
+    },
+    "prod12": {
+      "categoryId": "cat4",
+      "description": "Bánh bọt chiên",
+      "image": "https://i.pinimg.com/236x/69/65/d4/6965d43273604560f2e8c319e9a53c62.jpg",
+      "name": "Bánh Bọt Chiên",
+      "price": 25000,
+      "rating": 4.4,
+      "status": "available",
+      "storeId": "store5"
+    },
+    "prod13": {
+      "categoryId": "cat1",
+      "description": "Sườn nướng BBQ",
+      "image": "https://i.pinimg.com/236x/46/fa/04/46fa04ab0cc566654bab56f153fa4f11.jpg",
+      "name": "Sườn Nướng",
+      "price": 55000,
+      "rating": 4.7,
+      "status": "available",
+      "storeId": "store6"
+    },
+    "prod14": {
+      "categoryId": "cat1",
+      "description": "Gà nướng sa tế",
+      "image": "https://i.pinimg.com/236x/98/a8/a4/98a8a4f7fd7d1494a7051d423313ef0f.jpg",
+      "name": "Gà Nướng Sa Tế",
+      "price": 50000,
+      "rating": 4.6,
+      "status": "available",
+      "storeId": "store6"
+    },
+    "prod15": {
+      "categoryId": "cat4",
+      "description": "Mực nướng",
+      "image": "https://i.pinimg.com/236x/dc/06/f4/dc06f4c286acbfb49ffaacab00b12868.jpg",
+      "name": "Mực Nướng",
+      "price": 60000,
+      "rating": 4.5,
+      "status": "available",
+      "storeId": "store6"
+    },
+    "prod16": {
+      "categoryId": "cat2",
+      "description": "Bánh mì nướng BBQ",
+      "image": "https://i.pinimg.com/236x/7e/af/9e/7eaf9e97caa5f3cd9f932cb07bf8a855.jpg",
+      "name": "Bánh Mì Nướng",
+      "price": 30000,
+      "rating": 4.4,
+      "status": "available",
+      "storeId": "store6"
+    },
+    "prod17": {
+      "categoryId": "cat1",
+      "description": "Cơm chiên Dương Châu",
+      "image": "https://i.pinimg.com/236x/c4/f5/12/c4f512c14e297f05a31221d634364f40.jpg",
+      "name": "Cơm Chiên Dương Châu",
+      "price": 45000,
+      "rating": 4.7,
+      "status": "available",
+      "storeId": "store7"
+    },
+    "prod18": {
+      "categoryId": "cat2",
+      "description": "Bún bò Huế",
+      "image": "https://i.pinimg.com/236x/06/c9/af/06c9affcf45d163ab22a7ce34c385f88.jpg",
+      "name": "Bún Bò Huế",
+      "price": 50000,
+      "rating": 4.6,
+      "status": "available",
+      "storeId": "store7"
+    },
+    "prod19": {
+      "categoryId": "cat1",
+      "description": "Bánh cuốn Thanh Trì",
+      "image": "https://i.pinimg.com/236x/82/f6/43/82f643605a416d6cc7e26a84abac54c4.jpg",
+      "name": "Bánh Cuốn",
+      "price": 35000,
+      "rating": 4.5,
+      "status": "available",
+      "storeId": "store7"
+    },
+    "prod2": {
+      "categoryId": "cat2",
+      "description": "Phở bò với tái và nạm bò",
+      "image": "https://cachnau.vn/wp-content/uploads/2021/11/cach-nau-pho-bo-tai-ngon.jpg",
+      "name": "Phở bò tái nạm",
+      "price": 55000,
+      "rating": 4.5,
+      "status": "available",
+      "storeId": "store2"
+    },
+    "prod20": {
+      "categoryId": "cat3",
+      "description": "Nước mía tươi",
+      "image": "https://i.pinimg.com/236x/b3/14/a3/b314a3e98fc20ee22e3d8729b7b04929.jpg",
+      "name": "Nước Mía",
+      "price": 15000,
+      "rating": 4.4,
+      "status": "available",
+      "storeId": "store7"
+    },
+    "prod21": {
+      "categoryId": "cat5",
+      "description": "Chè khúc bạch",
+      "image": "https://i.pinimg.com/736x/ba/be/d3/babed385da166e470687908c2a2f8c6c.jpg",
+      "name": "Chè Khúc Bạch",
+      "price": 25000,
+      "rating": 4.7,
+      "status": "available",
+      "storeId": "store8"
+    },
+    "prod22": {
+      "categoryId": "cat5",
+      "description": "Bánh flan",
+      "image": "https://i.pinimg.com/236x/34/2e/b7/342eb74ca144e81e0ded1fa7ac1c5798.jpg",
+      "name": "Bánh Flan",
+      "price": 20000,
+      "rating": 4.6,
+      "status": "available",
+      "storeId": "store8"
+    },
+    "prod23": {
+      "categoryId": "cat5",
+      "description": "Chè bắp",
+      "image": "https://i.pinimg.com/236x/ad/aa/36/adaa36f40a06e0d892c334e5b220455e.jpg",
+      "name": "Chè Bắp",
+      "price": 22000,
+      "rating": 4.5,
+      "status": "available",
+      "storeId": "store8"
+    },
+    "prod24": {
+      "categoryId": "cat5",
+      "description": "Chè đậu đỏ",
+      "image": "https://i.pinimg.com/236x/74/c3/17/74c3179bea1f00f7748329d3d4faff6b.jpg",
+      "name": "Chè Đậu Đỏ",
+      "price": 20000,
+      "rating": 4.4,
+      "status": "available",
+      "storeId": "store8"
+    },
+    "prod25": {
+      "categoryId": "cat1",
+      "description": "Cơm chiên thịt bằm",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK_QiThodZnH3vnl2EzeQfzNUk9c-TKqBq0g&s",
+      "name": "Cơm Chiên Thịt Bằm",
+      "price": 40000,
+      "rating": 4.5,
+      "status": "available",
+      "storeId": "store1"
+    },
+    "prod26": {
+      "categoryId": "cat1",
+      "description": "Suất cơm chả giò",
+      "image": "https://i.pinimg.com/236x/b6/36/d9/b636d9546666f9b700f6e73a3d8f7381.jpg",
+      "name": "Cơm Chả Giò",
+      "price": 45000,
+      "rating": 4.6,
+      "status": "available",
+      "storeId": "store1"
+    },
+    "prod27": {
+      "categoryId": "cat1",
+      "description": "Cơm rang dưa bò",
+      "image": "https://i.pinimg.com/236x/30/cf/cc/30cfcc16e1e840e229bfd5590d05e7a1.jpg",
+      "name": "Cơm Rang Dưa Bò",
+      "price": 50000,
+      "rating": 4.4,
+      "status": "available",
+      "storeId": "store1"
+    },
+    "prod28": {
+      "categoryId": "cat2",
+      "description": "Phở gà quay",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC7NNMzmAp9FpV_8lEG14yHGVc4-eNtj5GKw&s",
+      "name": "Phở Gà Quay",
+      "price": 50000,
+      "rating": 4.6,
+      "status": "available",
+      "storeId": "store2"
+    },
+    "prod29": {
+      "categoryId": "cat2",
+      "description": "Phở chay",
+      "image": "https://i.pinimg.com/474x/d1/95/9d/d1959dba7dc80a9c1738acefa89464b1.jpg",
+      "name": "Phở Chay",
+      "price": 45000,
+      "rating": 4.3,
+      "status": "available",
+      "storeId": "store2"
+    },
+    "prod3": {
+      "categoryId": "cat3",
+      "description": "Trà sữa với trân châu đường đen",
+      "image": "https://cdn.tgdd.vn/Files/2022/01/21/1412109/huong-dan-cach-lam-tra-sua-tran-chau-duong-den-202201211522033706.jpg",
+      "name": "Trà sữa trân châu đường đen",
+      "price": 35000,
+      "rating": 4.4,
+      "status": "available",
+      "storeId": "store3"
+    },
+    "prod30": {
+      "categoryId": "cat2",
+      "description": "Phở cuốn",
+      "image": "https://i.pinimg.com/236x/e7/18/8f/e7188f1c7612c6b24eabe7febdf4a584.jpg",
+      "name": "Phở Cuốn",
+      "price": 40000,
+      "rating": 4.5,
+      "status": "available",
+      "storeId": "store2"
+    },
+    "prod31": {
+      "categoryId": "cat2",
+      "description": "Phở sườn",
+      "image": "https://i.pinimg.com/474x/95/e5/3a/95e53a3659adf692c0cc1fcd91010671.jpg",
+      "name": "Phở Sườn",
+      "price": 55000,
+      "rating": 4.4,
+      "status": "available",
+      "storeId": "store2"
+    },
+    "prod32": {
+      "categoryId": "cat3",
+      "description": "Trà xanh matcha",
+      "image": "https://i.pinimg.com/enabled_lo_mid/236x/76/8d/0e/768d0e15e22941f34f5a9ee88838d563.jpg",
+      "name": "Trà Xanh Matcha",
+      "price": 40000,
+      "rating": 4.5,
+      "status": "available",
+      "storeId": "store3"
+    },
+    "prod33": {
+      "categoryId": "cat3",
+      "description": "Trà sữa thảo mộc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl-daBUh0Tf3whWYHECD6ztu-nvc9DbR5CDg&s",
+      "name": "Trà Sữa Thảo Mộc",
+      "price": 35000,
+      "rating": 4.3,
+      "status": "available",
+      "storeId": "store3"
+    },
+    "prod34": {
+      "categoryId": "cat3",
+      "description": "Trà hoa quả tươi",
+      "image": "https://i.pinimg.com/474x/87/f4/c4/87f4c4eb7fc91f238857ef92ba151841.jpg",
+      "name": "Trà Hoa Quả",
+      "price": 30000,
+      "rating": 4.6,
+      "status": "available",
+      "storeId": "store3"
+    },
+    "prod35": {
+      "categoryId": "cat3",
+      "description": "Smoothie xoài",
+      "image": "https://i.pinimg.com/236x/af/b0/0f/afb00f3d735f59a2c2689a89e80b7a88.jpg",
+      "name": "Smoothie Xoài",
+      "price": 40000,
+      "rating": 4.4,
+      "status": "available",
+      "storeId": "store3"
+    },
+    "prod36": {
+      "categoryId": "cat3",
+      "description": "Nước ép dâu tươi",
+      "image": "https://i.pinimg.com/236x/56/bf/0e/56bf0e181888a34ebcfebf83eb936bb1.jpg",
+      "name": "Nước Ép Dâu",
+      "price": 35000,
+      "rating": 4.5,
+      "status": "available",
+      "storeId": "store3"
+    },
+    "prod4": {
+      "categoryId": "cat1",
+      "description": "Cơm với gà rán xối mỡ",
+      "image": "https://i.ytimg.com/vi/P0NgzDow6jk/maxresdefault.jpg",
+      "name": "Cơm gà xối mỡ",
+      "price": 40000,
+      "rating": 5,
+      "status": "available",
+      "storeId": "store1"
+    },
+    "prod5": {
+      "categoryId": "cat4",
+      "description": "Bánh tráng trộn chua cay",
+      "image": "https://i.pinimg.com/236x/1d/62/25/1d6225c0382eb0adf51533f7e3ffb244.jpg",
+      "name": "Bánh Tráng Trộn",
+      "price": 25000,
+      "rating": 4.5,
+      "status": "available",
+      "storeId": "store4"
+    },
+    "prod6": {
+      "categoryId": "cat4",
+      "description": "Chả giò chiên giòn",
+      "image": "https://i.pinimg.com/236x/1f/1f/23/1f1f23f83c1abd26ab7adf90f6f10c7b.jpg",
+      "name": "Chả Giò",
+      "price": 30000,
+      "rating": 4.6,
+      "status": "available",
+      "storeId": "store4"
+    },
+    "prod7": {
+      "categoryId": "cat4",
+      "description": "Nem chua rán",
+      "image": "https://i.pinimg.com/236x/4c/49/0c/4c490c0fce884e27f2e1418ad33b863e.jpg",
+      "name": "Nem Chua Rán",
+      "price": 25000,
+      "rating": 4.4,
+      "status": "available",
+      "storeId": "store4"
+    },
+    "prod8": {
+      "categoryId": "cat4",
+      "description": "Khoai tây chiên kiểu Pháp",
+      "image": "https://i.pinimg.com/236x/1e/76/b7/1e76b7aee6dc0eeecc13ba06125ab2b9.jpg",
+      "name": "Khoai Tây Chiên",
+      "price": 20000,
+      "rating": 4.3,
+      "status": "available",
+      "storeId": "store4"
+    },
+    "prod9": {
+      "categoryId": "cat1",
+      "description": "Bánh xèo miền Trung",
+      "image": "https://i.pinimg.com/236x/2f/ab/2b/2fab2b34f113ad9fb0bdfaa2714311a5.jpg",
+      "name": "Bánh Xèo",
+      "price": 40000,
+      "rating": 5,
+      "status": "available",
+      "storeId": "store5"
+    }
+  },
+  "stores": {
+    "store1": {
+      "address": "123 Nguyễn Văn A, Quận 1, TP.HCM",
+      "description": "Quán cơm tấm ngon nổi tiếng",
+      "image": "https://mia.vn/media/uploads/blog-du-lich/com-tam-sai-gon-1-1693583358.jpg",
+      "name": "Cơm Tấm Ngon",
+      "phoneNumber": "0901234567",
+      "rating": 4.5,
+      "status": "open"
+    },
+    "store2": {
+      "address": "456 Lê Văn B, Quận 3, TP.HCM",
+      "description": "Phở ngon phục vụ 24/7",
+      "image": "https://dddn.1cdn.vn/2020/02/16/diendandoanhnghiep.vn-media-uploaded-422-2020-02-16-_pho.jpg",
+      "name": "Phở 24",
+      "phoneNumber": "0909876543",
+      "rating": 4.3,
+      "status": "open"
+    },
+    "store3": {
+      "address": "789 Trần Văn C, Quận 5, TP.HCM",
+      "description": "Chuỗi trà sữa nổi tiếng",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKhxdeF0o02mhRkfE7VM5e6QNeyOVLNzCXWFk3WPpH_8HEruAEaEKZ4DoVoyflf1_U5A&usqp=CAU",
+      "name": "Trà sữa TocoToco",
+      "phoneNumber": "0908765432",
+      "rating": 4.2,
+      "status": "open"
+    },
+    "store4": {
+      "address": "22 Pasteur, Quận 1, TP.HCM",
+      "description": "Quán ăn vặt đa dạng và phong phú",
+      "image": "https://i.pinimg.com/736x/03/40/b0/0340b02a2e706ca1b92fadf7b2337d58.jpg",
+      "name": "Thiên Đường Ăn Vặt",
+      "phoneNumber": "0907112233",
+      "rating": 4.6,
+      "status": "open"
+    },
+    "store5": {
+      "address": "45 Điện Biên Phủ, Quận Bình Thạnh, TP.HCM",
+      "description": "Chuyên các món miền Trung",
+      "image": "https://i.pinimg.com/236x/1a/87/be/1a87be996d122a258d0d1f120900369e.jpg",
+      "name": "Quán Bánh Đà Nẵng",
+      "phoneNumber": "0908223344",
+      "rating": 4.7,
+      "status": "open"
+    },
+    "store6": {
+      "address": "189 Hai Bà Trưng, Quận 3, TP.HCM",
+      "description": "Quán chuyên các món nướng và BBQ",
+      "image": "https://i.pinimg.com/236x/18/79/55/1879554de71ebdf1fc6e79604bf469af.jpg",
+      "name": "Sân Nướng Việt",
+      "phoneNumber": "0909334455",
+      "rating": 4.5,
+      "status": "open"
+    },
+    "store7": {
+      "address": "76 Lê Lai, Quận 1, TP.HCM",
+      "description": "Thiên đường của các món Việt Nam",
+      "image": "https://i.pinimg.com/236x/9b/29/3f/9b293fd0369920a7dddb15932153dd3a.jpg",
+      "name": "Ẩm Thực Quê Hương",
+      "phoneNumber": "0906445566",
+      "rating": 4.8,
+      "status": "open"
+    },
+    "store8": {
+      "address": "33 Nam Kỳ Khởi Nghĩa, Quận 1, TP.HCM",
+      "description": "Chuyên các loại bánh và chè",
+      "image": "https://i.pinimg.com/236x/79/b7/b2/79b7b221acaadcb3174da51588e26668.jpg",
+      "name": "Ngọt Ngào Quán",
+      "phoneNumber": "0905556677",
+      "rating": 4.4,
+      "status": "open"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "rules": {
+    "accounts": {
+      ".indexOn": ["email", "phone"],
+      ".read": true,
+      ".write": true
+    },
+    "users": {
+      ".indexOn": ["email", "phone"],
+      ".read": true,
+      ".write": true
+    },
+    "userDetails": {
+      ".read": true,
+      ".write": true
+    },
+    "categories": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "products": {
+      ".indexOn": ["storeId", "categoryId"],
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "stores": {
+      ".indexOn": ["status", "rating"],
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "failedAttempts": {
+      "$deviceId": {
+        ".read": true,
+        ".write": true,
+        ".indexOn": ["timestamp"]
+      }
+    },
+    "favorites": {
+      ".indexOn": ["userId", "storeId"],
+      ".read": true,
+      ".write": true
+    },
+    "cartItems": {
+      ".indexOn": ["productId", "cartId", "userId"],
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "carts": {
+      ".indexOn": ["userId", "storeId", "status"],
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "orders": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$orderId": {
+        ".validate": "newData.hasChildren(['id', 'userId', 'storeId', 'status', 'totalAmount', 'recipientName', 'recipientAddress', 'createdAt'])",
+        "userId": {
+          ".validate": "newData.val() === auth.uid"
+        }
+      }
+    },
+    "orderItems": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$orderId": {
+        "$itemId": {
+          ".validate": "newData.hasChildren(['productId', 'quantity', 'price'])"
+        }
+      }
+    },
+    "feedbacks": {
+      ".read": true,
+      ".write": true,
+      ".indexOn": ["productId", "userId"]
+    },
+    "feedback_comments": {
+      ".read": true,
+      ".write": "auth != null",
+      "$commentId": {
+        ".validate": "newData.hasChildren(['userId', 'feedbackId', 'content', 'createdAt'])",
+        "userId": {
+          ".validate": "auth != null && auth.uid === newData.val()"
+        }
+      }
+    }
+  }
+}
